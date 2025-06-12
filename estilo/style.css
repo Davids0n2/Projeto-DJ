@@ -33,6 +33,31 @@ header h1{
     text-align: center;
 }
 
+.para-ela{
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.para-ela button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: palevioletred;
+    color: rgb(255, 246, 255);
+    text-decoration: underline;
+}
+
+.para-ela button:hover{
+    background-color: rgb(255, 246, 255);
+    color: palevioletred;
+    box-shadow: inset 2px 2px 7px black;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
 .normal{
     color: rgb(0, 0, 0);
     text-align: center;
